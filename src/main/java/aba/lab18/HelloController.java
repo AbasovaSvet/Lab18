@@ -2,6 +2,7 @@ package aba.lab18;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 import static javafx.application.Application.launch;
 
@@ -9,9 +10,9 @@ public class HelloController {
     @FXML
     private Label labelRez;
     @FXML
-    private Label textY;
+    private TextField textY;
     @FXML
-    private Label textX;
+    private TextField textX;
     @FXML
     public  void  plus(){
         double x = Double.parseDouble(textX.getText());
